@@ -9,7 +9,7 @@
         <link rel="stylesheet" href="css/styles.css"/>
 	</head>
 	<body>
-		<h1 role="heading" aria-level="1" class="dis">Mon cv</h1>
+		<h1 aria-level="1" class="dis">Mon cv</h1>
 		<header>
 			<div class="topbar">
 				<div class="topbar__ground">
@@ -30,7 +30,7 @@
 				<div class="topbar__back">
 					<div class="topbar__back__two">
 						<nav aria-label="Navigation principale" class="topbar__back__two__navigation">
-							<h2 role="heading" aria-level="2" class="topbar__back__two__navigation__title">Navigation principale</h2>
+							<h2 aria-level="2" class="topbar__back__two__navigation__title">Navigation principale</h2>
 							<ul class="topbar__back__two__navigation__list">
 								<li class="topbar__back__two__navigation__list__detail"><a href="#" class="topbar__back__two__navigation__list__detail__link">Accueil</a></li>
 								<li class="topbar__back__two__navigation__list__detail"><a href="#" class="topbar__back__two__navigation__list__detail__link">Projets</a></li>
@@ -46,7 +46,6 @@
 							<p class="topbar__back__two__compte__text">
 								Mon compte
 							</p>
-
 						</div>
 					</div>
 				</div>
@@ -55,8 +54,8 @@
 		<main>
 		<div class="desc">
 			<div class="desc__bloc">
-				<section itemscope itemptype="http://shema.org/Person" class="desc__profil">
-					<h2 role="heading" aria-level="2" itemprop="Person" class="desc__name" >Anthony Beaumecker</h2>
+				<section class="desc__profil">
+					<h2 aria-level="2" class="desc__name" >Anthony Beaumecker</h2>
 					<div class="desc__type">
 						<span class="desc__type__support">Tous supports</span><span class="desc__type__men">// Version disponible : <span class="desc__type__info">Homme</span></span>
 					</div>
@@ -77,14 +76,14 @@
 				<div class="desc__bloc-two">
 					<p class="desc__ariane">anthovideo.com/ <span class="desc__ariane-actu">Anthony Beaumecker</span></p>
 					<div class="description">
-						<div class="info info--left">
+						<section class="info info--left">
 							<h3 aria-level="3" class="header-information">Information sur la personne</h3>
-							<img src="img/profil.jpg" alt="profil" class="profil">
+							<img src="img/profil.JPG" alt="profil" class="profil">
 							<div class="info__view-profil">
 								<span class="info__view info__view--left">Avant</span> |
 								<span class="info__view info__view--right">Arrière</span>
 							</div>
-						</div>
+						</section>
 						<div class="info info--right">
 							<table class="info__note">
 								<thead>
@@ -122,9 +121,9 @@
 									</tr>
 								</tbody>
 							</table>
-							<div class="info__detail" itempscope itemtype="http://shema.org/Person">
+							<div class="info__detail">
 								<p class="info__detail-title"><span class="info__detail-reponse">Editeur(s) / Développeur(s) :</span> Maman et Papa</p>
-								<p class="info__detail-title" itemprop="birthDate"><span class="info__detail-reponse">Date de naissance :</span> 25 Novembre 1994</p>
+								<p class="info__detail-title"><span class="info__detail-reponse">Date de naissance :</span> 25 Novembre 1994</p>
 								<p class="info__detail-title"><span class="info__detail-reponse">Genre&nbsp;:</span> Homme</p>
 								<p class="info__detail-title"><span class="info__detail-reponse">Thème(s)&nbsp;:</span> Simplicité</p>
 								<p class="info__detail-title"><span class="info__detail-reponse">Age&nbsp;:</span> 21 ans</p>
@@ -152,85 +151,85 @@
 							</a>
 						 </div>
 						 <a href="#" class="info__boutique">Commander mes services</a>
-						 <iframe class="info__video" width="620" height="350" src="https://www.youtube.com/embed/AASd5ewKNSw" frameborder="0" allowfullscreen></iframe>
+						 <iframe class="info__video" width="620" height="350" src="https://www.youtube.com/embed/AASd5ewKNSw" allowfullscreen></iframe>
 					</div>
-					<article class="info__actus">
-						<h3 aria-level="3" class="header-information">L'actu de Anthony</li>
+					<section class="info__actus">
+						<h3 aria-level="3" class="header-information">L'actu de Anthony</h3>
 						<nav class="info__actu-nav">
+							<h4 aria-level="4" class="visuallyhidden">Navigation articles</h4>
 							<ul>
-								<li class="info__actu-detail">News (45)</li><span class="info__actu-list"> |</span>
-								<li class="info__actu-detail">Videos (25)</li><span class="info__actu-list"> |</span>
+								<li class="info__actu-detail">News (45)<span class="info__actu-list"> |</span></li>
+								<li class="info__actu-detail">Videos (25)<span class="info__actu-list"> |</span></li>
 								<li class="info__actu-detail">Articles (3)</li>
 							</ul>
 						</nav>
-						<div class="info__actu-article">
-							<img src="img/portfolio.jpg" class="info__article-image" alt="Image du portfolio" width="300" height="149"/>
-							<div class="info__article-margin">
+						<div class="info__actu-article info__actu-article--height">
+							<img src="img/portfolio.JPG" class="info__article-image" alt="Image du portfolio" width="300" height="149"/>
+							<section class="info__article-margin">
 								<h4 aria-level="4" class="info__article-title">News</h4>
-								<h5 aria-level="5" class="info__article-titleTwo">Nouveau portfolio mis en ligne !</h5>
+								<p class="info__article-titleTwo">Nouveau portfolio mis en ligne !</p>
 								<p class="info__article-date">
 									22/08/2016
 								</p>
 								<p class="info__article-texte">
 									Ce site regroupe tous mes projets personnels réalisés.
 								</p>
-							</div>
+							</section>
 						</div>
-						<section class="info__actu-second">
+						<div class="info__actu-second">
 							<div class="info__actu-articles">
-								<img src="img/baobab.jpg" class="info__actu-image" alt="Site de Baobab" width="96" height="63"/>
-								<div class="info__actu-display">
+								<img src="img/baobab.JPG" class="info__actu-image" alt="Site de Baobab" width="96" height="63"/>
+								<section class="info__actu-display">
 									<h4 aria-level="4" class="info__actu-title"><span class="info__actu-orange">Projet&nbsp;: </span>Le projet du site Baobab</h4>
 									<p class="info__actu-date">
 										01/06/2016
 									</p>
-								</div>
+								</section>
 							</div>
 							<div class="info__actu-articles">
 								<img src="img/artiste.jpg" class="info__actu-image" alt="Site de Baobab" width="96" height="63"/>
-								<div class="info__actu-display">
+								<section class="info__actu-display">
 									<h4 aria-level="4" class="info__actu-title"><span class="info__actu-orange">Projet&nbsp;: </span>Site de Nicolas de Stael</h4>
 									<p class="info__actu-date">
 										04/11/2016
 									</p>
-								</div>
+								</section>
 							</div>
 							<div class="info__actu-articles">
-								<img src="img/jeu.jpg" class="info__actu-image" alt="Site de Baobab" width="96" height="63"/>
-								<div class="info__actu-display">
+								<img src="img/jeu.JPG" class="info__actu-image" alt="Site de Baobab" width="96" height="63"/>
+								<section class="info__actu-display">
 									<h4 aria-level="4" class="info__actu-title"><span class="info__actu-orange">Projet&nbsp;: </span>Le jeu Homerun</h4>
 									<p class="info__actu-date">
 										31/05/2016
 									</p>
-								</div>
+								</section>
 							</div>
 							<div class="info__actu-articles">
 								<img src="img/csszg.jpg" class="info__actu-image" alt="Site de Baobab" width="96" height="63"/>
-								<div class="info__actu-display">
+								<section class="info__actu-display">
 									<h4 aria-level="4" class="info__actu-title"><span class="info__actu-orange">Projet&nbsp;: </span>Le site Css Zen Garden</h4>
 									<p class="info__actu-date">
 										08/10/2016
 									</p>
-								</div>
+								</section>
 							</div>
-						</section>
-					</article>
-					<div class="info__images">
+						</div>
+					</section>
+					<section class="info__images">
 						<h3 aria-level="3" class="header-information">Images</h3>
 						<a href="#" class="info__image-right">toutes les images</a>
 						<div class="info__image">
-							<img src="img/photo1.jpg" class="infos__image-list" width="192" hight="108" alt="images"/>
-							<img src="img/photo2.jpg" class="infos__image-list" width="192" hight="108" alt="images"/>
-							<img src="img/photo3.jpg" class="infos__image-list" width="192" hight="108" alt="images"/>
-							<img src="img/photo4.jpg" class="infos__image-list" width="192" hight="108" alt="images"/>
-							<img src="img/photo5.jpg" class="infos__image-list" width="192" hight="108" alt="images"/>
-							<img src="img/photo6.jpg" class="infos__image-list" width="192" hight="108" alt="images"/>
+							<img src="img/photo1.jpg" class="infos__image-list" width="192" height="108" alt="images"/>
+							<img src="img/photo2.jpg" class="infos__image-list" width="192" height="108" alt="images"/>
+							<img src="img/photo3.jpg" class="infos__image-list" width="192" height="108" alt="images"/>
+							<img src="img/photo4.jpg" class="infos__image-list" width="192" height="108" alt="images"/>
+							<img src="img/photo5.jpg" class="infos__image-list" width="192" height="108" alt="images"/>
+							<img src="img/photo6.jpg" class="infos__image-list" width="192" height="108" alt="images"/>
 						</div>
-					</div>
-					<div class="info__avis">
+					</section>
+					<section class="info__avis">
 						<h3 aria-level="3" class="header-information">L'avis de anthovideo.com / L'avis des clients</h3>
 						<table class="info__table">
-							<legend class="visuallyhidden">Avis</legend>
 							<tr>
 								<th class="info__th info__th--one">Titre</th>
 								<th class="info__th info__th--two">Note globale</th>
@@ -251,12 +250,11 @@
 							</tr>
 						</table>
 						<p class="info__bas-table">La note globale du designer est la moyenne de la note anthovideo.com et de la note client.</p>
-					</div>
-					<div class="info__forum">
+					</section>
+					<section class="info__forum">
 						<h3 aria-level="3" class="header-information">Forums / Topics populaires</h3>
 						<a href="#" class="info__image-right">Voir le forum du jeu</a>
 						<table class="info__table2">
-							<legend class="visuallyhidden">Avis</legend>
 							<tr>
 								<th class="info__th2 info__th2--one">Sujet</th>
 								<th class="info__th2 info__th2--two">Auteur</th>
@@ -297,7 +295,7 @@
 						<p class="info__forum-create">
 							Créer un topic sur le forum Until Dawn
 						</p>
-					</div>
+					</section>
 				</div>
 			</div>
 		</div>
@@ -321,16 +319,16 @@
 		 <div class="footer__links">
 			<div class="footer__container">
 				<div class="footer__left">
-					<div class="footer__article">
-						<h3 class="footer__article-title">Projet anthovideo.com</h3>
+					<section class="footer__article">
+						<h2 aria-level="2" class="footer__article-title">Projet anthovideo.com</h2>
 						<img src="img/baobab2.jpg" alt="projet"/>
 						<p class="footer__projet-mois">Découvrez le projet du mois</p>
-					</div>
-					<div class="footer__article">
-						<h3 class="footer__article-title">A la une</h3>
-						<img src="img/portfolio.jpg" alt="projet"/>
+					</section>
+					<section class="footer__article">
+						<h2 aria-level="2" class="footer__article-title">A la une</h2>
+						<img src="img/portfolio.JPG" alt="projet"/>
 						<p class="footer__projet-mois footer__projet-mois--width">Portfolio : Ce site regroupe tous mes projets personnels réalisés.</p>
-					</div>
+					</section>
 					<div class="footer__article footer__article--nav">
 						<ul class="footer__right-list">
 							<li class="footer__right-detail">Contact</li>
